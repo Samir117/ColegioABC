@@ -297,10 +297,20 @@ function Notas() {
         "" + promNotaSuperior;
 
     document.getElementById("cantidad_total_estudiantes").innerHTML = "Cantidad Total De Estudiantes: " + cont;
+    let nombreDoc = localStorage.getItem("nombre");
+    console.log("Nombre del docente: "+nombreDoc);
+    document.getElementById('nameDocente').innerHTML=nombreDoc;
 
 }
 function Validacion() {
     var todo_correcto = true;
+    var name= document.getElementById('nombreDocente').value;
+    var pass= document.getElementById('contraseña').value;
+    if (name=="") {
+        document.getElementById('nombreDocente').focus();
+    }else if (pass=="") {
+        document.getElementById('contraseña').focus();
+    }
     if (document.getElementById('nombreDocente').value.length < 2) {
         todo_correcto = false;
     }
@@ -308,9 +318,10 @@ function Validacion() {
         todo_correcto = false;
     }
     if (!todo_correcto) {
-        alert('Vuelva a revisar los datos');
+        alert('Por favor revisar que los datos sean correctos');
     } else {
         window.location.assign("html/Resultados.html");
-
+        console.log("nombre del docente es: "+name)
     }
+    localStorage.setItem("nombre", name);
 }
