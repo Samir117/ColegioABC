@@ -1,259 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="html/../../css/bootstrap.css" />
-    <link rel="shortcut icon" href="html/../../img/icon.png" />
-    <title>Resultados Evaluativos</title>
-    <script type="text/javascript" src="css/../../js/taller.js"></script>
-  </head>
-  <body
-    background="html/../../img/fondo_notas.jpg"
-    style="
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="html/../../css/bootstrap.css" />
+  <link rel="shortcut icon" href="html/../../img/icon.png" />
+  <title>Resultados Evaluativos</title>
+  <script type="text/javascript" src="css/../../js/taller.js"></script>
+</head>
+
+<body background="html/../../img/fondo_notas.jpg" style="
       background-position: center center;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
       background-color: brown;
-    "
-  >
-    <div class="container-fluid">
-      <div class="row" style="background: #810000">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="rounded float-end" style="color: white">
-            <i>
-              <script>
-                fecha();
-              </script>
-            </i>
-          </div>
+    ">
+  <div class="container-fluid">
+    <div class="row" style="background: #810000">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="rounded float-end" style="color: white">
+          <i>
+            <script>
+              fecha();
+            </script>
+          </i>
         </div>
       </div>
     </div>
-    <!--Encabezado-->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-1 col-md-1 col-sm-1">
-          <img
-            src="hmtl/../../img/icon.png"
-            width="100px"
-            height="100px"
-            alt=""
-            style="border-radius: 70%"
-          />
+  </div>
+  <!--Encabezado-->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1 col-md-1 col-sm-1">
+        <img src="hmtl/../../img/icon.png" width="100px" height="100px" alt="" style="border-radius: 70%" />
+      </div>
+      <div class="col align-self-center col-lg-5 col-md-4 col-sm-4">
+        <div class="rounded float-start" style="color: #810000">
+          <h2>Practice Center <br> Colegio ABC</h2>
         </div>
-        <div class="col align-self-center col-lg-5 col-md-4 col-sm-4">
-          <div class="rounded float-start" style="color: #810000">
-            <h2>Practice Center</h2>
-          </div>
-        </div>
-        <div class="col align-self-center col-lg-6 col-md-6 col-sm-6">
-          <div class="rounded float-end">
-            <img
-              src="hmt/../../img/quedate-en-casa-1.png"
-              width="150px"
-              height="50px"
-              alt=""
-            />
-          </div>
+      </div>
+      <div class="col align-self-center col-lg-6 col-md-6 col-sm-6">
+        <div class="rounded float-end">
+          <img src="hmt/../../img/quedate-en-casa-1.png" width="150px" height="50px" alt="" />
         </div>
       </div>
     </div>
-    <!--Navbar-->
+  </div>
+  <!--Navbar-->
+  <br />
+
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <nav class="navbar navbar-dark" style="background-color: #630000">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="html/../../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Resultados</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true" href="#">Lista</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true" href="#">Contáctenos</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <br />
+  <br />
+
+  <div class="container">
+    <div class="row">
+      <br /><br />
+      <div>
+        <button type="button" onclick="Notas()" class="btn btn-outline-success ; container-fluid">
+          Ingresar Notas
+        </button>
+      </div>
+      <div class="display-2" style="text-align: center; color: white; background-color: #630000">
+        Resultados Evaluativos
+      </div>
+    </div>
     <br />
 
     <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12">
-        <nav class="navbar navbar-dark" style="background-color: #630000">
-          <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light">
-              <a class="navbar-brand" href="#"></a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a
-                      class="nav-link active"
-                      aria-current="page"
-                      href="html/../../index.html"
-                      >Inicio</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="html/Resultados.html"
-                      >Resultados</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Lista</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contáctenos</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
+      <div class="col-lg-12">
+        <div class="table-responsive">
+          <div class="display-6" style="text-align: center; color: white; background-color: #810000;">
+            Promedios Y Cantidades
           </div>
-        </nav>
+          <table class="table table-striped">
+            <tr>
+              <th>Nombre Docente</th>
+              <th>Promedio de notas que aprobaron</th>
+              <th>Promedio de notas que reprobaron</th>
+              <th>Estudiantes que aprobaron la asignatura</th>
+              <th>Estudiantes que reprobaron la asignatura</th>
+            </tr>
+            <tr>
+              <td id="nameDocente"></td>
+              <td id="Promedio_Estudiantes_Aprobaron"></td>
+              <td id="Promedio_Estudiantes_Reprobaron"></td>
+              <td id="Estudiantes_aprobados"></td>
+              <td id="Estudiantes_reprobados"></td>
+            </tr>
+          </table>
+        </div>
       </div>
     </div>
     <br />
     <br />
-
-    <div class="container">
-      <div class="row">
-        <br /><br />
-        <div>
-          <button
-            type="button"
-            onclick="Notas()"
-            class="btn btn-outline-success ; container-fluid"
-          >
-            Ingresar Notas
-          </button>
-        </div>
-        <div
-          class="display-2"
-          style="text-align: center; color: white; background-color: #630000"
-        >
-          Resultados Evaluativos
-        </div>
-      </div>
-      <br />
-
-      <div class="row">
+    <div class="row">
+      <div class="container">
         <div class="col-lg-12">
           <div class="table-responsive">
             <div class="display-6" style="text-align: center; color: white; background-color: #810000;">
-              Promedios Y Cantidades
+              Promedio Por Categorias
             </div>
             <table class="table table-striped">
               <tr>
-                <th>Nombre Docente</th>
-                <th>Promedio de notas que aprobaron</th>
-                <th>Promedio de notas que reprobaron</th>
-                <th>Estudiantes que aprobaron la asignatura</th>
-                <th>Estudiantes que reprobaron la asignatura</th>
+                <th style="text-align: center" class="col-sm-3">
+                  Categorias
+                </th>
+                <th style="text-align: center" class="col-sm-3">Promedios</th>
               </tr>
               <tr>
-                <td>Cesar Patricio</td>
-                <td id="Promedio_Estudiantes_Aprobaron"></td>
-                <td id="Promedio_Estudiantes_Reprobaron"></td>
-                <td id="Estudiantes_aprobados"></td>
-                <td id="Estudiantes_reprobados"></td>
+                <td class="table-danger">Deficiente</td>
+                <td class="table-danger" id="promedio_deficiente"></td>
+              </tr>
+              <td class="table-warning">Bajo</td>
+              <td class="table-warning" id="promedio_bajo"></td>
+              <tr>
+                <td class="table-success">Basico</td>
+                <td class="table-success" id="promedio_basico"></td>
+              </tr>
+              <tr>
+                <td class="table-info">Alto</td>
+                <td class="table-info" id="promedio_alto"></td>
+              </tr>
+              <tr>
+                <td class="table-primary">Superior</td>
+                <td class="table-primary" id="promedio_superior"></td>
               </tr>
             </table>
           </div>
-        </div>
-      </div>
-      <br />
-      <br />
-      <div class="row">
-        <div class="container">
-          <div class="col-lg-12">
-            <div class="table-responsive">
-              <div class="display-6" style="text-align: center; color: white; background-color: #810000;">
-                Promedio Por Categorias
-              </div>
-              <table class="table table-striped">
-                <tr>
-                  <th style="text-align: center" class="col-sm-3">
-                    Categorias
-                  </th>
-                  <th style="text-align: center" class="col-sm-3">Promedios</th>
-                </tr>
-                <tr>
-                  <td class="table-danger">Deficiente</td>
-                  <td class="table-danger" id="promedio_deficiente"></td>
-                </tr>
-                <td class="table-warning">Bajo</td>
-                <td class="table-warning" id="promedio_bajo"></td>
-                <tr>
-                  <td class="table-success">Basico</td>
-                  <td class="table-success" id="promedio_basico"></td>
-                </tr>
-                <tr>
-                  <td class="table-info">Alto</td>
-                  <td class="table-info" id="promedio_alto"></td>
-                </tr>
-                <tr>
-                  <td class="table-primary">Superior</td>
-                  <td class="table-primary" id="promedio_superior"></td>
-                </tr>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <br />
-      <br />
-      <br />
-
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="table-responsive">
-            <div class="display-6" style="text-align: center; color: white;background-color: #810000;" >
-              Aprobados y Reprobados Por Periodos
-            </div>
-            <table class="table table-striped">
-              <tr>
-                <th>Periodo</th>
-                <th>Aprobados</th>
-                <th>Reprobados</th>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td class="table-success" id="aprobadoscorte1"></td>
-                <td class="table-danger" id="reprobadoscorte1"></td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td class="table-success" id="aprobadoscorte2"></td>
-                <td class="table-danger" id="reprobadoscorte2"></td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td class="table-success" id="aprobadoscorte3"></td>
-                <td class="table-danger" id="reprobadoscorte3"></td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td class="table-success" id="aprobadoscorte4"></td>
-                <td class="table-danger" id="reprobadoscorte4"></td>
-              </tr>
-            </table>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col- lg-12">
-          <div
-            style="background-color: #810000; color: white;" class="display-6"
-            id="cantidad_total_estudiantes"
-          ></div>
         </div>
       </div>
     </div>
+
+    <br />
+    <br />
+    <br />
 
     <div class="row">
-      <div class="bg-light">
-        <br />
-
-     
+      <div class="col-lg-12">
+        <div class="table-responsive">
+          <div class="display-6" style="text-align: center; color: white;background-color: #810000;">
+            Aprobados y Reprobados Por Periodos
+          </div>
+          <table class="table table-striped">
+            <tr>
+              <th>Periodo</th>
+              <th>Aprobados</th>
+              <th>Reprobados</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td class="table-success" id="aprobadoscorte1"></td>
+              <td class="table-danger" id="reprobadoscorte1"></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td class="table-success" id="aprobadoscorte2"></td>
+              <td class="table-danger" id="reprobadoscorte2"></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td class="table-success" id="aprobadoscorte3"></td>
+              <td class="table-danger" id="reprobadoscorte3"></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td class="table-success" id="aprobadoscorte4"></td>
+              <td class="table-danger" id="reprobadoscorte4"></td>
+            </tr>
+          </table>
+        </div>
       </div>
     </div>
-  </body>
+    <div class="row">
+      <div class="col- lg-12">
+        <div style="background-color: #810000; color: white;" class="display-6" id="cantidad_total_estudiantes"></div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div style="background-color: #810000;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8 col-md-8">
+          <br>
+          <p class="rounded float-start" style="color: aliceblue;">Colegio ABC - Dirección General <br>
+            Calle 4x No. 3 - xx Barranquilla, Colombia <br>
+            Atención presencial: lunes a viernes 8:00 a.m. a 5:30 p.m. <br>
+            Atención telefónica: lunes a viernes 8:00 a.m. a 7:00 p.m. - sábados a domingo 10:00 a.m. a 1:00
+            p.m. <br>
+            Chat en linea <br>
+            Correo notificaciones judiciales: abc@center.com.co <br>
+            Todos los derechos 2021 Colegio ABC - Políticas de privacidad y condiciones uso Portal <br>
+            Política de Tratamiento para Protección de Datos Personales - <a href="#"
+              style="text-decoration: none;">Política de seguridad y privacidad de la información</a> </p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <br>
+          <ul style="color: aliceblue;">
+            <li>
+              <h5><b>Información de contacto</b></h5>
+            </li>
+            <ul>
+              <li>
+                <img src="../img/marcador-de-posicion.png" width="23px" height="23px" alt="">Cl. 4x # 3 -
+                xx
+              </li>
+              <li>
+                <img src="../img/celular-vintage.png" width="23px" height="23px" alt="">(+57) 3243116423
+              </li>
+              <li>
+                <img src="../img/nuevo-sobre-de-correo-electronico.png" width="23px" height="23px"
+                  alt="">colegioabc@center.com
+              </li>
+            </ul>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
