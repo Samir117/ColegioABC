@@ -258,7 +258,7 @@ function Notas() {
         cont_c4NoAprobados
     );
 
-    console.log("Promedio de notas Deficientes: " + promNotaDeficiente);
+    console.log("Promedio de notas Deficientes: " +promNotaDeficiente);
     console.log("Promedio de notas Bajas: " + promNotaBajo);
     console.log("Promedio de notas Basicos: " + promNotaBasico);
     console.log("Promedio de notas Altas: " + promNotaAlto);
